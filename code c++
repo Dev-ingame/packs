@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int a;
+	int b;
+	int sum;
+
+	cout << "put a number\n";
+	cin >> a;
+
+	cout << "put another number\n";
+	cin >> b;
+
+	sum = a + b;
+
+	cout << "the sumb is = " << sum << endl;
+  
+}
